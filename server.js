@@ -112,7 +112,7 @@ app.post('/event',
 
 // create other get and post methods here - version, login,  etc
 // defines a route that receives the post request to /like to like the event
-app.post('/like',
+app.post('/event/like',
     urlencodedParser, // second argument - how to parse the uploaded content
     // into req.body
     (req, res) => {
